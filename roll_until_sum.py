@@ -27,4 +27,6 @@ def main():
         print("Roll: {0} and {1}, sum is {2}".format(die1Value,die2Value,rollSum))
     print("Got it in {} rolls!".format(rollCount))
     
-main()
+if __name__ == '__main__':
+    print("Running the 6-dice roll simulation")
+    main()
